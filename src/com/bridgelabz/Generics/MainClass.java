@@ -2,12 +2,12 @@ package com.bridgelabz.Generics;
 
 public class MainClass {
     public static void main(String[] args) {
-        MaxInt maxInt = new MaxInt();
+        MaxFloat maxFloat = new MaxFloat();
         System.out.println("Test case 1");
-        maxInt.maxvalue(7, 5, 6);
+        maxFloat.maxvalue(7.2F, 5.3F, 6.2F);
         System.out.println("Test case 2");
-        maxInt.maxvalue(5, 6, 4);
+        maxFloat.maxvalue(5.4F, 6.5F, 4.5F);
         System.out.println("Test case 3");
-        maxInt.maxvalue(5, 6, 8);
+        maxFloat.maxvalue(5.3F, 6.6F, 8.7F);
     }
 }
